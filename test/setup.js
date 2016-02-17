@@ -47,6 +47,6 @@ function allRemoveCollections(db, configs, callback) {
     });
     async.each(list, function(conf, next) {
         db[conf.name].remove({}, next);
-        logger.info('drop collection', conf.name);
+        logger.info('remove collection', conf.name);
     }, callback);
 }
