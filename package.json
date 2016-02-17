@@ -1,0 +1,40 @@
+{
+  "name": "node-server",
+  "version": "1.0.0",
+  "description": "Node.jsのサーバーサンプル",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha test/*.*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daijinload/node-server.git"
+  },
+  "dependencies": {
+    "async": "*",
+    "body-parser": "*",
+    "commander": "*",
+    "express": "*",
+    "glob": "*",
+    "js-yaml": "*",
+    "kerberos": "0.0.17",
+    "lodash": "*",
+    "log4js": "*",
+    "moment": "*",
+    "mongodb": "^2.0.44"
+  },
+  "devDependencies": {
+    "espower-loader": "*",
+    "intelli-espower-loader": "*",
+    "mocha": "*",
+    "power-assert": "*",
+    "sinon": "*",
+    "supertest": "*"
+  },
+  "author": "daijinload@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/daijinload/node-server/issues"
+  },
+  "homepage": "https://github.com/daijinload/node-server#readme"
+}
