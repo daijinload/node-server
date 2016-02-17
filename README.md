@@ -5,6 +5,6 @@ Node.jsのサーバーサンプル
   
 現時点で、気になる点  
   
-・expressによる設定を、controllerに書いているが分けるべきか？（repositoryは、分けてない？）
-・設定ファイルのenvフォルダは、libとかと同列なのか？lib配下か？
+・expressによる設定を、controllerに書いているが分けるべきか？（repositoryは、分けてない？）  
+・設定ファイルのenvフォルダは、libとかと同列なのか？lib配下か？  
 ・
