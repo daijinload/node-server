@@ -7,7 +7,7 @@ var express = require('express');
 var glob = require('glob');
 
 // config セットアップ＆取得
-var config = require('./lib/env/local');
+var config = require('./lib/env/index').setup();
 
 // ログ初期化＆取得
 var log4js = require('log4js');
